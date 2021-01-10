@@ -1,0 +1,48 @@
+.questionCard {
+    margin-top: -1.2rem;
+    width: 21.5rem;
+
+    &_question {
+        font-family: 'Sansita Swashed', cursive;
+        font-size: 0.95rem;
+        word-spacing: 1.5px;
+        letter-spacing: 1.1px;
+        text-align: center;
+    }
+
+    &_option {
+        display: flex;
+        justify-content: center;
+        button {
+            width: 23rem;
+            letter-spacing: 0.8px !important;
+            font-family: 'Cinzel', serif !important;
+            font-style: italic;
+            font-size: 0.78rem;
+            border: 1px solid gray;
+        }
+    }
+}
+
+
+
+
+.nextBtn {
+    width: 21.74rem !important;
+    margin-top: 1rem !important;
+}
+
+.startBtn {
+    width: 21.74rem !important;
+    margin-top: 1.74rem !important;
+}
+
+.score, .quesNo {
+    width: 21.74rem !important;
+    padding: 0.25rem;
+    border-radius: 2px;
+    margin-top: 1rem !important;
+    text-align: center;
+    font-family: 'Cinzel', serif !important;
+    text-align: center;
+}
